@@ -1,0 +1,9 @@
+****Copy this for debian*****
+  export GOROOT=/usr/lib/go
+ export  GOPATH=$HOME/go
+ export  PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+  ****Copy this for Termux*****
+  export GOROOT=/data/data/com.termux/files/usr/lib/go
+  export  GOPATH=$HOME/go
+  export  PATH=$PATH:$GOROOT/bin:$GOPATH/bin
